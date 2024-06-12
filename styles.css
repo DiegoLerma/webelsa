@@ -16,7 +16,7 @@ section p {
 header {
     text-align: center;
     padding: 1rem 0;
-    background: #8E7AB5;
+    background: white;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     color: #fff;
 }
@@ -44,15 +44,23 @@ header nav ul li {
 }
 
 header nav ul li a {
-    color: #fff;
+    display: block;
+    padding: 1rem;
+    background-color: #f8bbd0;
+    color: #d84f74;
     text-decoration: none;
     font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s, transform 0.3s, box-shadow 0.3s;
 }
 
 header nav ul li a:hover {
-    color: #d81b60;
+    background-color: #d81b60;
+    color: #fff;
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
-
 #hero {
     position: relative;
     padding: 4rem 1rem;
@@ -275,6 +283,12 @@ section.in-view {
         flex-direction: column;
         gap: 1rem;
     }
+
+    header nav ul li a {
+        width: 80%;
+        margin: 0 auto;
+    }
+
 
     button.prev {
         left: -15px;
