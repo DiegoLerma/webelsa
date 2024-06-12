@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Elsa Fabiola Arrona Sánchez, Médico en formación y con experiencia en investigación médica y congresos.">
+    <meta name="robots" content="index, follow">
+    <title>Elsa Fabiola Arrona Sánchez - Médico en Formación e Investigadora</title>
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Elsa Fabiola Arrona Sánchez - Médico en Formación e Investigadora">
+    <meta property="og:description" content="Elsa Fabiola Arrona Sánchez, Médico en formación y con experiencia en investigación médica y congresos.">
+    <meta property="og:image" content="https://www.doctordiegolerma.com/logo.png"> 
+    <meta property="og:url" content="https://www.doctordiegolerma.com">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Elsa Fabiola Arrona Sánchez - Médico en Formación e Investigadora">
+    <meta name="twitter:description" content="Elsa Fabiola Arrona Sánchez, Médico en formación y con experiencia en investigación médica y congresos.">
+    <meta name="twitter:image" content="https://www.doctordiegolerma.com/logo.png"> 
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" href="logo.png" type="image/png">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Logo" class="logo-image">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">Sobre mí</a></li>
+                <li><a href="#experience">Experiencia</a></li>
+                <li><a href="#projects">Proyectos</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="hero">
+            <img src="foto.jpg" alt="Foto de Elsa Fabiola Arrona Sánchez" class="hero-image">
+            <h1>Elsa Fabiola Arrona Sánchez</h1>
+            <p>Médico en formación con amplia experiencia en investigación y participación en congresos médicos.</p>
+            <a href="#contact" class="cta">Solicitar Consulta</a>
+        </section>
+
+        <section id="titles">
+            <h2>Formación Académica</h2>
+            <div class="cards">
+                <div class="card">
+                    <h3>Licenciatura en Médico Cirujano</h3>
+                    <p>Universidad de Guanajuato</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>Sobre Mí</h2>
+            <p>Soy un Médico en formación con experiencia en investigación médica. Actualmente estoy cursando el primer semestre del internado médico en la Universidad de Guanajuato. He participado en múltiples congresos nacionales e internacionales y tengo publicaciones en revistas de investigación médica.</p>
+        </section>
+
+        <section id="experience">
+            <h2>Experiencia Profesional</h2>
+            <div class="experience-item">
+                <h3>Investigación Médica</h3>
+                <p>Participación en diversos proyectos de investigación médica, con publicaciones en revistas especializadas y ponencias en congresos internacionales.</p>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Proyectos Destacados</h2>
+            <div class="slider-container">
+                <div class="project-slider" id="project-slider">
+                    <div class="project-slide">
+                        <figure class="project-img-container">
+                            <img src="gestamor.jpg" alt="Proyecto Gestamor">
+                        </figure>
+                        <h3>Gestamor</h3>
+                        <p>Red estatal de seguimiento, intervención y empoderamiento a la paciente embarazada.</p>
+                    </div>
+                </div>
+                <button class="prev project-prev" aria-label="Previous slide">❮</button>
+                <button class="next project-next" aria-label="Next  slide">❯</button>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contacto</h2>
+            <form id="contact-form" autocomplete="on">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" autocomplete="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" autocomplete="email" required>
+                
+                <label for="phone">Teléfono:</label>
+                <input type="tel" id="phone" name="phone" autocomplete="tel" required>
+                
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" autocomplete="on" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+            
+            <div class="contact-info">
+                <p>Email: ef.arronasanchez@gmail.com</p>
+                <p>Teléfono: (477) 8173005</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy;  Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="scripts.js" defer></script>
+</body>
+</html>
