@@ -1,77 +1,82 @@
-# Página Web Personal de Diego Cesar Lerma Torres
+# Elsa Fabiola Arrona Sánchez
 
-Este proyecto es una página web personal diseñada para presentar mi currículum, proyectos destacados y permitir a los visitantes contactarme para consultas o servicios de consultoría en tecnología aplicada al sector salud.
+## Médico en Formación e Investigadora
 
-## Contenidos
+---
 
-- [Página Web Personal de Diego Cesar Lerma Torres](#página-web-personal-de-diego-cesar-lerma-torres)
-  - [Contenidos](#contenidos)
-  - [Instalación](#instalación)
-  - [Uso](#uso)
-  - [Estructura del Proyecto](#estructura-del-proyecto)
-  - [Contribuciones](#contribuciones)
-  - [Licencia](#licencia)
+Elsa Fabiola Arrona Sánchez es una destacada médico en formación, conocida por su dedicación y pasión en el campo de la medicina y la investigación. Actualmente cursa el primer semestre del internado médico en la Universidad de Guanajuato, Campus León, donde ha mantenido un excelente desempeño académico con un promedio de calificaciones de 9.2.
 
-## Instalación
+### Trayectoria Académica
 
-1. **Clonar el repositorio:**
+Elsa ha demostrado un compromiso excepcional con su formación académica y profesional. Durante su licenciatura en Médico Cirujano, ha participado en diversos proyectos de investigación y ha contribuido significativamente en múltiples congresos y foros médicos.
 
-    ```bash
-    git clone https://github.com/DiegoLerma/webpersonal.git
-    cd webpersonal
-    ```
+- **Licenciatura en Médico Cirujano**  
+  Universidad de Guanajuato - Campus León  
+  (2019 - Actualidad)  
 
-2. **Abrir el proyecto:**
+### Experiencia en Investigación
 
-   Puedes abrir el proyecto en tu editor de texto favorito, como Visual Studio Code.
+Elsa ha participado activamente en la investigación médica, habiendo presentado y publicado varios trabajos en congresos nacionales e internacionales. Sus áreas de interés incluyen la hematología, la oncología y la inmunología clínica.
 
-3. **Iniciar un servidor local:**
+- **Septiembre 2023**  
+  XXIII Reunión Internacional de Ciencias Médicas  
+  - Autora y ponente del trabajo "Análisis de una cohorte de pacientes adultos con hemofilia A: Centro de Tratamiento de Hemofilia en la Región del Bajío, México".
+  - Autora del trabajo "Histoplasmosis fulminante generalizada en paciente sin inmunocompromiso. Reporte de caso".
+  - Autora del trabajo "Sarcoma de Kaposi visceral diseminado asociado a síndrome inflamatorio de reconstitución inmune: Reporte de un caso".
 
-   Puedes usar extensiones como "Live Server" en Visual Studio Code para ver el sitio en un navegador.
+- **Junio 2023**  
+  2° Foro de Educación e Investigación en Salud UMAE, Hospital Gineco-Pediatría No. 48, Centro Médico Nacional del Bajío IMSS  
+  - Autora y ponente del trabajo "Comparación del efecto analgésico no farmacológico con solución glucosada al 30%, alimentación al seno materno y contacto piel a piel en los recién nacidos a término durante la vacunación contra hepatitis B".
 
-## Uso
+### Publicaciones y Congresos
 
-1. **Navegar a la URL local:**
+Elsa ha sido autora y coautora de múltiples artículos de investigación publicados en revistas especializadas y presentados en congresos médicos.
 
-   Una vez que el servidor esté en funcionamiento, abre tu navegador y navega a `http://localhost:5500` (o el puerto que estés utilizando).
+- **Mayo 2023**  
+  XLVII Congreso Nacional de Infectología y Microbiología Clínica  
+  - Coautora, asistente y ponente del trabajo "Sarcoma de Kaposi visceral diseminado asociado a síndrome inflamatorio de reconstitución inmune. Reporte de un caso".
 
-2. **Interactuar con la página:**
+- **Abril 2023**  
+  Revista "The Oncology Herald"  
+  - Autora del artículo "Tamizaje de cáncer cervicouterino en circunstancias especiales".
+  - Autora del artículo "Tamizaje de cáncer cervicouterino en México en primer nivel de atención".
 
-   - Navega por las secciones del sitio: Sobre Mí, Formación Académica, Experiencia Profesional, Proyectos Destacados y Contacto.
-   - Usa el formulario de contacto para enviar mensajes.
+- **Octubre 2022**  
+  LXIII Congreso Nacional de Hematología  
+  - Coautora del caso clínico "Linfoma no Hodgkin tipo MALT de la glándula parótida. Presentación de un caso".
+  - Coautora del caso clínico "Trasplante haploidéntico para tratamiento de síndrome mielodisplásico. Reporte de caso".
+  - Coautora del caso clínico "Síndrome de Evans refractario a tratamiento. A propósito de un caso".
 
-## Estructura del Proyecto
+### Proyectos Destacados
 
-├── index.html
+Elsa también ha participado en proyectos innovadores que buscan mejorar la atención médica y el bienestar de los pacientes.
 
-├── styles.css
+- **Gestamor**  
+  Proyecto de red estatal de seguimiento, intervención y empoderamiento a la paciente embarazada.  
+  - Ganadora del primer lugar en el XVIII Concurso de Creatividad e Innovación.
 
-├── scripts.js
+### Aptitudes y Habilidades
 
-├── logo.png
+Elsa se destaca por sus aptitudes y habilidades personales, que le permiten sobresalir tanto en su vida académica como profesional:
 
-├── health-gpt.png
+- Trato respetuoso, cordial y amable
+- Buena tolerancia a la frustración
+- Facilidad para el trabajo en equipo
+- Gran capacidad de adaptación
+- Buena capacidad de escucha
+- Creativa y activa
+- Responsable
+- Tenacidad
 
-├── triagegto.jpg
+### Intereses
 
-└── README.md
+Elsa tiene un profundo amor por la cirugía y disfruta aprender cosas nuevas, desarrollar habilidades de investigación y ayudar a los demás. También es una ávida lectora y tiene un interés especial en los idiomas, siendo nativa en español y con un nivel medio de inglés.
 
-- **index.html**: El archivo principal HTML.
-- **styles.css**: Estilos CSS personalizados.
-- **scripts.js**: Lógica JavaScript para la interactividad del sitio.
-- **logo.png**: Logo utilizado como favicon y en el encabezado.
-- **health-gpt.png**, **triagegto.jpg**: Imágenes de proyectos destacados.
+### Datos de Contacto
 
-## Contribuciones
+- **Teléfono**: (477) 8173005
+- **Correo Electrónico**: ef.arronasanchez@gmail.com
 
-¡Las contribuciones son bienvenidas! Por favor, sigue los siguientes pasos:
+---
 
-1. Haz un fork del repositorio.
-2. Crea una nueva rama (`git checkout -b feature/nueva-funcionalidad`).
-3. Realiza tus cambios y commitea (`git commit -am 'Añadir nueva funcionalidad'`).
-4. Sube tus cambios (`git push origin feature/nueva-funcionalidad`).
-5. Crea un Pull Request.
-
-## Licencia
-
-Este proyecto está licenciado bajo la Licencia MIT - consulta el archivo [LICENSE](LICENSE) para más detalles.
+Elsa Fabiola Arrona Sánchez es una profesional comprometida con su desarrollo y con la mejora continua de la atención médica. Su pasión por la medicina y la investigación la convierte en una valiosa contribución al campo de la salud.
