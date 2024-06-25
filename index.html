@@ -3,69 +3,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Elsa Fabiola Arrona Sánchez, Médico en formación y con experiencia en investigación médica y congresos.">
+    <meta name="description" content="Elsa Fabiola Arrona Sánchez, Médico en formación y ponente en diversos congresos y foros de investigación médica.">
     <meta name="robots" content="index, follow">
-    <title>Elsa Fabiola Arrona Sánchez - Médico en Formación e Investigadora</title>
+    <title>Elsa Fabiola Arrona Sánchez - Médico en Formación</title>
 
     <!-- Open Graph Meta Tags -->
-    <meta property="og:title" content="Elsa Fabiola Arrona Sánchez - Médico en Formación e Investigadora">
-    <meta property="og:description" content="Elsa Fabiola Arrona Sánchez, Médico en formación y con experiencia en investigación médica y congresos.">
-    <meta property="og:image" content="https://diegolerma.github.io/webelsa/logo.png"> 
-    <meta property="og:url" content="https://diegolerma.github.io/webelsa/">
+    <meta property="og:title" content="Elsa Fabiola Arrona Sánchez - Médico en Formación">
+    <meta property="og:description" content="Elsa Fabiola Arrona Sánchez, Médico en formación y ponente en diversos congresos y foros de investigación médica.">
+    <meta property="og:image" content="assets/logo.png"> 
+    <meta property="og:url" content="https://www.doctoraelsaarrona.com">
     <meta property="og:type" content="website">
 
     <!-- Twitter Card Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Elsa Fabiola Arrona Sánchez - Médico en Formación e Investigadora">
-    <meta name="twitter:description" content="Elsa Fabiola Arrona Sánchez, Médico en formación y con experiencia en investigación médica y congresos.">
-    <meta name="twitter:image" content="https://diegolerma.github.io/webelsa/logo.png"> 
+    <meta name="twitter:title" content="Elsa Fabiola Arrona Sánchez - Médico en Formación">
+    <meta name="twitter:description" content="Elsa Fabiola Arrona Sánchez, Médico en formación y ponente en diversos congresos y foros de investigación médica.">
+    <meta name="twitter:image" content="assets/logo.png"> 
 
+    <!-- Stylesheets -->
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="icon" href="logo.png" type="image/png">
+    <link rel="icon" href="assets/logo.png" type="image/png">
 </head>
-<body>
-    <header>
-        <div class="logo">
-            <img src="logo.png" alt="Logo" class="logo-image">
-        </div>
-        <nav>
-            <ul>
-                <li><a href="#about">Sobre mí</a></li>
-                <li><a href="#experience">Experiencia</a></li>
-                <li><a href="#projects">Proyectos</a></li>
-                <li><a href="#contact">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
+<header>
+    <div class="logo">
+        <img src="assets/logo.png" alt="Logo" class="logo-image">
+        <button id="theme-toggle" aria-label="Toggle theme">
+            <i class="fas fa-moon"></i>
+        </button>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="#about">Sobre mí</a></li>
+            <li><a href="#experience">Experiencia</a></li>
+            <li><a href="#projects">Proyectos</a></li>
+            <li><a href="#contact">Contacto</a></li>
+        </ul>
+    </nav>
+</header>
+    
     <main>
         <section id="hero">
-            <img src="foto.jpg" alt="Foto de Elsa Fabiola Arrona Sánchez" class="hero-image">
+            <img src="assets/foto.jpg" alt="Foto de Elsa Fabiola Arrona Sánchez" class="hero-image">
             <h1>Elsa Fabiola Arrona Sánchez</h1>
-            <p>Médico en formación con amplia experiencia en investigación y participación en congresos médicos.</p>
-            <a href="#contact" class="cta">Contacto</a>
+            <p>Médico en Formación. Ponente e Investigadora en Ciencias Médicas.</p>
+            <a href="#contact" class="cta">Contáctame</a>
         </section>
 
         <section id="titles">
             <h2>Formación Académica</h2>
             <div class="cards">
-                <div class="card">
+                <div class="card" data-id="medico-cirujano" onclick="showModal('Médico Cirujano (General)')">
                     <h3>Licenciatura en Médico Cirujano</h3>
-                    <p>Universidad de Guanajuato</p>
+                    <p>Universidad de Guanajuato - Campus León</p>
                 </div>
             </div>
         </section>
 
         <section id="about">
             <h2>Sobre Mí</h2>
-            <p>Soy un Médico en formación con experiencia en investigación médica. Actualmente estoy cursando el primer semestre del internado médico en la Universidad de Guanajuato. He participado en múltiples congresos nacionales e internacionales y tengo publicaciones en revistas de investigación médica.</p>
+            <div class="about-cards">
+                <div class="about-card">
+                    <figure>
+                        <img src="assets/about/elsaarrona.jpg" alt="Médico en Formación">
+                    </figure>
+                    <h3>Investigación en Salud</h3>
+                    <p>Soy estudiante de la Licenciatura en Médico Cirujano por la Universidad de Guanajuato. He participado en diversos congresos y foros de investigación, presentando trabajos en áreas como la hemofilia, histoplasmosis y sarcoma de Kaposi.</p>
+                </div>
+                <div class="about-card">
+                    <figure>
+                        <img src="assets/about/research.jpg" alt="Investigación en Salud">
+                    </figure>
+                    <h3>Proyectos de Investigación</h3>
+                    <p>He desarrollado proyectos de investigación y ponencias en múltiples congresos, incluyendo trabajos sobre púrpura trombocitopénica autoinmune, linfoma no Hodgkin y tamizaje de cáncer cervicouterino.</p>
+                </div>
+                <div class="about-card">
+                    <figure>
+                        <img src="assets/about/community.jpg" alt="Voluntariado en Colombia">
+                    </figure>
+                    <h3>Voluntariado Internacional</h3>
+                    <p>Participé en un proyecto de ayuda social en Taganga, Colombia, impartiendo talleres de autoexploración de mama a familias de escasos recursos.</p>
+                </div>
+            </div>
         </section>
-
+        
         <section id="experience">
             <h2>Experiencia Profesional</h2>
-            <div class="experience-item">
-                <h3>Investigación Médica</h3>
-                <p>Participación en diversos proyectos de investigación médica, con publicaciones en revistas especializadas y ponencias en congresos internacionales.</p>
+            <div class="experience-cards">
+                <div class="experience-card">
+                    <figure>
+                        <img src="assets/experience/presentacion.jpg" alt="Presentación de Ponencias">
+                    </figure>
+                    <h3>Presentación de Ponencias</h3>
+                    <p>He presentado ponencias en diversos congresos nacionales e internacionales, abordando temas como la hemofilia, el sarcoma de Kaposi y técnicas de analgesia no farmacológica en recién nacidos.</p>
+                </div>
             </div>
         </section>
 
@@ -73,48 +104,89 @@
             <h2>Proyectos Destacados</h2>
             <div class="slider-container">
                 <div class="project-slider" id="project-slider">
-                    <div class="project-slide">
+                    <div class="project-slide" data-id="gestamor" onclick="showModal('Gestamor')">
                         <figure class="project-img-container">
-                            <img src="gestamor.jpg" alt="Proyecto Gestamor">
+                            <img src="assets/gestamor.jpg" alt="Proyecto Gestamor">
                         </figure>
                         <h3>Gestamor</h3>
-                        <p>Red estatal de seguimiento, intervención y empoderamiento a la paciente embarazada.</p>
+                        <p>Red estatal de seguimiento, intervención y empoderamiento a la paciente embarazada. Primer lugar en el XVIII Concurso de Creatividad e Innovación.</p>
                     </div>
                 </div>
                 <button class="prev project-prev" aria-label="Previous slide">❮</button>
-                <button class="next project-next" aria-label="Next  slide">❯</button>
+                <button class="next project-next" aria-label="Next slide">❯</button>
+            </div>
+            <div class="carousel-dots">
+                <span class="dot" onclick="currentSlide(0)"></span>
             </div>
         </section>
-
+        
         <section id="contact">
-            <h2>Contacto</h2>
-            <form id="contact-form" autocomplete="on">
+            <h2>Contáctame</h2>
+            <form id="contact-form">
                 <label for="name">Nombre:</label>
-                <input type="text" id="name" name="name" autocomplete="name" required>
+                <input type="text" id="name" name="name" required>
                 
                 <label for="email">Email:</label>
-                <input type="email" id="email" name="email" autocomplete="email" required>
+                <input type="email" id="email" name="email" required>
                 
                 <label for="phone">Teléfono:</label>
-                <input type="tel" id="phone" name="phone" autocomplete="tel" required>
+                <input type="tel" id="phone" name="phone" required>
                 
                 <label for="message">Mensaje:</label>
-                <textarea id="message" name="message" autocomplete="on" required></textarea>
+                <textarea id="message" name="message" required></textarea>
                 
                 <button type="submit">Enviar</button>
             </form>
-            
-            <div class="contact-info">
-                <p>Email: ef.arronasanchez@gmail.com</p>
-                <p>Teléfono: (477) 8173005</p>
+        </section>
+        <!-- <section id="appointments">
+            <h2>Citas médicas</h2>
+            <div id="google-calendar-scheduling">
+                <link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
+                <script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
+                <script>
+                (function() {
+                    var target = document.currentScript;
+                    window.addEventListener('load', function() {
+                        calendar.schedulingButton.load({
+                            url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ1xICMAxK0sSLGa8IEceaWCXS2h54dxZPlG1LNzN6JDhpuwbNXkHT8ptf2fscTK0n5PXcsgfvMY?gv=true',
+                            color: '#007acc',
+                            label: 'Solicitar cita médica',
+                            target,
+                            className: 'custom-cal-schedule-btn' // Añade esta línea
+                        });
+                    });
+                })();
+                </script>
+            </div>
+        </section> -->
+        <section id="social-media">
+            <h2>¡Sígueme en redes sociales!</h2>
+            <div class="social-links">
+                <a href="mailto:ef.arronasanchez@gmail.com" aria-label="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
             </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy;  Todos los derechos reservados.</p>
+        <p>&copy; Todos los derechos reservados.</p>
     </footer>
 
+    <!-- Tarjeta flotante -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button" onclick="closeModal()">&times;</span>
+            <div id="modal-text"></div>
+        </div>
+    </div>
+
     <script src="scripts.js" defer></script>
+    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init("2vJ_WSS2Rm_pqS04Q"); 
+        })();
+    </script>
 </body>
 </html>
