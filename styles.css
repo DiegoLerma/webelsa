@@ -446,7 +446,7 @@ body.dark-theme #contact-form {
     padding: 0.75rem;
     border: none;
     border-radius: var(--border-radius);
-    background: var(--secondary-color);
+    background: var(--primary-color);
     color: var(--text-color);
     cursor: pointer;
     transition: background var(--transition-speed);
@@ -454,7 +454,7 @@ body.dark-theme #contact-form {
 }
 
 #contact-form button:hover {
-    background: var(--primary-color);
+    background: var(--accent-color);
 }
 
 .contact-info {
@@ -747,7 +747,7 @@ body.light-theme .social-links a:hover {
         display: block; /* Asegura que el botón de tema se muestre en móvil */
         position: absolute;
         top: 38px; /* Ajusta según sea necesario */
-        right: 25px; /* Ajusta según sea necesario */
+        right: 60px; /* Ajusta según sea necesario */
         background: none;
         border: none;
         color: var(--text-color);
