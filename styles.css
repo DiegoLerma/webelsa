@@ -188,7 +188,7 @@ body.light-theme #hero .cta {
 
 /* Card Styles */
 #titles {
-    padding: 4rem 1rem;
+    /* padding: 4rem 1rem; */
     background: var(--background-section-dark);
     text-align: center;
     transition: background var(--transition-speed);
@@ -208,7 +208,7 @@ body.light-theme #titles {
     justify-content: center;
     gap: 2rem;
     align-items: center; /* Añade esta línea para centrar verticalmente */
-    min-height: 50vh; /* Ajusta según sea necesario para una mejor alineación vertical */
+    /* min-height: 50vh; Ajusta según sea necesario para una mejor alineación vertical */
 }
 
 
